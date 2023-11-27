@@ -1,0 +1,4 @@
+name: EnderGrief
+version: '${project.version}'
+main: com.voidminedevelopment.endergrief.EnderGrief
+api-version: '1.20'
