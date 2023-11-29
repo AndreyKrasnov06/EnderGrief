@@ -1,5 +1,6 @@
 package com.voidminedevelopment.endergrief;
 
+import org.bukkit.Bukkit;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -12,6 +13,7 @@ public final class EnderGrief extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        Bukkit.getPluginManager().registerEvents(this, this);
         getLogger().info("EnderGrief - включён");
 
     }
